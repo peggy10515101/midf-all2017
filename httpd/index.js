@@ -14,7 +14,7 @@
 
 let http = require('http');
 
-const routingTable = require('./student.json');
+const routingTable = require('./config.json');
 
 /**
   * 利用 http.ServerResponse 物件回傳檔案內容
